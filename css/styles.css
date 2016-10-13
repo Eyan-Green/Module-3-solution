@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #00BFFF;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #00FFFF;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#header-nav {
+  border: 2px solid;
+  border-color: #7FFFD4;
+  background-color: #1E90FF;
+}
+
+.container {
+  height: 75px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.75em;
+  color: #00008B;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.25em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#section1 .content, #section2 .content, #section3 .content {
+  position: relative;
+  color: black;
+  background-color: #ADD8E6;
+  padding: 12px;
+}
+
+#section1, #section2, #section3 {
+  padding: 12px;
+}
+
+button.navbar-toggle.collapsed .icon-bar {
+  border: 1px solid #7FFFD4;
+}
+
+button.navbar-toggle.collapsed {
+  margin-top: 18px;
+}
+
+button.navbar-toggle {
+  margin-top: 18px;
+}
+
+#nav-list a {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+hr.visible-xs {
+  margin: 0;
+  border-color: #7FFFD4; 
+}
+
+hr {
+  width: 100%;
+}
+
+ul#nav-list.nav.navbar-nav.navbar-right.visible-xs {
+  margin: 0;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+#section1, #section2, #section3 {
+  padding: 50px;   
+  }
+
+#section1 .content, #section2 .content, #section3 .content {
+  padding: 25px;
+  }
+}
