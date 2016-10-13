@@ -90,7 +90,8 @@ ul#nav-list.nav.navbar-nav.navbar-right.visible-xs {
 @media (max-width: 767px) {
 
 #section1, #section2, #section3 {
-  padding: 50px;   
+  padding: 50px;
+  padding-top: 12px;   
   }
 
 #section1 .content, #section2 .content, #section3 .content {
